@@ -37,4 +37,4 @@ VOLUME /tmp
 
 CMD python /foo/main.py
 
-EXPOSE 5000
+EXPOSE 80
