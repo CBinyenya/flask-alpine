@@ -12,7 +12,7 @@ def flask1():
 
 @app.route('/greeting')
 def greeting():
-	r = requests.get('http://flask2/hello')	
+	r = requests.get('http://docker-node/flask2/hello')	
 	return r.text
 
 @app.route('/')
