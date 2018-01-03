@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/flask1')
 def flask1():
-	return 'I am flask 1'
+	return 'I am flask One'
 
 @app.route('/greeting')
 def greeting():
